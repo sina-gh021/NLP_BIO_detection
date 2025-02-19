@@ -1,7 +1,7 @@
 # NLP Abbreviation and Long-Form Detection 
 
 ##  Project Overview
-This project is part of the **Natural Language Processing (COMM061) coursework** and focuses on **detecting abbreviations and their corresponding long forms** using deep learning techniques. The goal is to develop a sequence classification model utilizing **BiLSTM and CRF** to improve accuracy in identifying abbreviations in text.
+This project is part of the **Natural Language Processing coursework** and focuses on **detecting abbreviations and their corresponding long forms** using deep learning techniques. The goal is to develop a sequence classification model utilizing **BiLSTM and CRF** to improve accuracy in identifying abbreviations in text.
 
 ## Dataset
 The **PLOD-CW** dataset is an English-language dataset containing abbreviations and their corresponding long forms, collected from PLOS journals. It is designed for **Natural Language Processing (NLP) research in abbreviation detection**, specifically within the **scientific domain**.
@@ -21,7 +21,7 @@ The **PLOD-CW** dataset is an English-language dataset containing abbreviations 
 - **Word Embeddings:** Evaluating performance differences between **GloVe** and **FastText**.
 - **Hyperparameter Tuning:** Optimized **batch size, learning rate, dropout value, and number of layers** for best performance.
 
-## 📊 Experimental Results
+##  Experimental Results
 
 ### **1. Word Embeddings Comparison**
 - **GloVe** (200K vocab, 100D): Performed better for abbreviation detection.
